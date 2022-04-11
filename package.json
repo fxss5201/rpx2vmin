@@ -5,8 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "rpx2vmin": "node index.js"
+    "rpx2vmin": "cross-env unit=rpx node index.js",
+    "px2vmin": "cross-env unit=px node index.js"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "fxss",
+  "license": "ISC",
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
 }

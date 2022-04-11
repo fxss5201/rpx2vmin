@@ -1,17 +1,17 @@
 .body {
   display: flex;
   align-items: center;
-  font-size: 12rpx;
-  height: 60rpx;
-  padding: 12rpx 16rpx;
-  border-left: 2rpx dashed #5DA5FF;
+  font-size: 12px;
+  height: 60px;
+  padding: 12px 16px;
+  border-left: 2px dashed #5DA5FF;
 }
 
 .body-left {
-  width: 50rpx;
+  width: 50px;
 }
 
 .body-right {
-  width: calc(100vw - 50rpx);
+  width: calc(100vw - 50px);
 }
 
