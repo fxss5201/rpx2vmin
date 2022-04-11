@@ -1,6 +1,6 @@
 # rpx2vmin
 
-将需要转译的 `.wxss` 文件复制粘贴到 `input` 文件下，在项目目录下执行 `npm run rpx2vmin` ，会在 `ouput` 目录下生成对应的文件名称，需要提前按照 [nodejs](http://nodejs.cn/)。
+将需要转译的 `.wxss` 文件复制粘贴到 `input` 文件下，在项目目录下执行 `npm run rpx2vmin` ，会在 `ouput` 目录下生成对应的文件名称，需要提前安装 [nodejs](http://nodejs.cn/)。
 
 主要处理的如下：
 
