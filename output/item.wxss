@@ -1,0 +1,17 @@
+.body {
+  display: flex;
+  align-items: center;
+  font-size: calc(12vmin / 7.5);
+  height: calc(60vmin / 7.5);
+  padding: calc(12vmin / 7.5) calc(16vmin / 7.5);
+  border-left: calc(2vmin / 7.5) dashed #5DA5FF;
+}
+
+.body-left {
+  width: calc(50vmin / 7.5);
+}
+
+.body-right {
+  width: calc(100vw - 50vmin / 7.5);
+}
+

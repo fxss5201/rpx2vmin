@@ -1,0 +1,17 @@
+.body {
+  display: flex;
+  align-items: center;
+  font-size: 12rpx;
+  height: 60rpx;
+  padding: 12rpx 16rpx;
+  border-left: 2rpx dashed #5DA5FF;
+}
+
+.body-left {
+  width: 50rpx;
+}
+
+.body-right {
+  width: calc(100vw - 50rpx);
+}
+
